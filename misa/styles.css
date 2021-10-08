@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: right;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+}
+header:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+header .content {
+  position: relative;
+  z-index: 1;
+}
+header .content h1 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 800;
+}
+header .content h1 span {
+  font-weight: 100;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 480px) {
+  header .content h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h1 {
+    font-size: 72px;
+  }
+}
+header .content h2 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 720;
+  margin: 30px 0px;
+}
+@media screen and (min-width: 480px) {
+  header .content h2 {
+    font-size: 46px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h2 {
+    font-size: 62px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h2 {
+    font-size: 76px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h2 {
+    font-size: 108px;
+  }
+}
+header .content .countdown {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+}
+@media screen and (min-width: 480px) {
+  header .content .countdown {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content .countdown {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content .countdown {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content .countdown {
+    font-size: 88px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
